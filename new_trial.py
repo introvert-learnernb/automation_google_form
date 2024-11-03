@@ -5,17 +5,13 @@ from selenium.webdriver.support import expected_conditions as EC
 import time
 from datetime import datetime
 
-
-
-
-
 class Main:
     def __init__(self) -> None:  # Fixed __init__ method name
         self.url = 'https://accounts.google.com/ServiceLogin'
         self.linkedin_url = 'https://www.linkedin.com/login'
         self.forms_url = 'https://docs.google.com/forms/d/e/1FAIpQLSeWTVIqaZMnWHuTqPsVCAchpzKlETeo8x_0PimbGDyeA3WFtQ/viewform'
         self.driver = uc.Chrome(use_subprocess=True)  # Properly create driver instance
-   
+        self.time = 10
 
     def login(self, email, password):
         # Open the URL
