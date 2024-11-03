@@ -40,7 +40,7 @@ class Main:
         username_field = WebDriverWait(self.driver, 10).until(EC.presence_of_element_located((By.ID, 'username')))
         password_field = self.driver.find_element(By.ID, 'password')
         username_field.send_keys('introvertlearnernb@gmail.com')
-        password_field.send_keys('sgZpY,Y=s)m9Z8s')
+        password_field.send_keys('************')
 
         # Click the login button
         login_button = self.driver.find_element(By.XPATH, "//button[@type='submit']")
@@ -145,7 +145,7 @@ class Main:
 if __name__ == "__main__":
     # Provide your email and password for testing
     email = 'introvertlearnernb@gmail.com'  # Replace with your email
-    password = 'We4nsc2eoR-#@hy1'  # Replace with your password
+    password = '**************'  # Replace with your password
 
     # Create an instance of Main and perform the login
     bot = Main()
