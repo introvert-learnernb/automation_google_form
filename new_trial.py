@@ -149,7 +149,7 @@ class Main:
 if __name__ == "__main__":
     # Provide your email and password for testing
     email = 'introvertlearnernb@gmail.com'  # Replace with your email
-    password = '***************'  # Replace with your password
+    password = 'We4nsc2eoR-#@hy1'  # Replace with your password
 
     # Create an instance of Main and perform the login
     bot = Main()
